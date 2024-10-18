@@ -46,7 +46,7 @@ CREATE A NEW REPOSITORY IN GITHUB
  
 PUSH TO GITHUB FOR THE FIRST TIME 
 gh auth login \
-git remote set-url origin https://github.com/superdud50/capstone-project-level-2-keith-fort.git 
+git remote set-url origin https://github.com/superdud50/sandbox-level-2.git
 git add . 
 git commit -m "added files" 
 git push --set-upstream origin main 
@@ -63,7 +63,7 @@ git remote set-url origin //Sets the origin
 git push --set-upstream origin main //Pushes files to GitHub and makes origin and main the default options 
 
 ### RENAME DEFAULT BRANCH TO MAIN 
-`git branch -M main` 
+`git branch -M main`
 
 ### SET DEFAULT BRANCH TO MATN 
 `git config --global init.defaultBranch main"`
@@ -188,6 +188,8 @@ DELETE A BRANCH
 RESTORE A BRANCH
 `git branch branch1 origin/myBranch`
 
+
+
 Create a new file: image-map.html  
 Download the shapes file: 2D-shapes.jpg from Week 2 Day 1 on CodeX Moodle Account
 Save image as: 2d-shapes.jpg in SandBox Level 2 folder
@@ -274,5 +276,10 @@ activate the function imageMapResize();
 imageMapResize();
 </script>
 
+### IMAGE MAP WITH ORDERED LIST
+Use map and area to define an image map
+map needs the name attribute
+img needs the usemap attribute
+usemap should start with # and match name
 
 
